@@ -9,7 +9,7 @@ From your Redmine plugins directory, clone this repository as `redmine_msteams` 
 the underscore!):
 
     cd $REDMINE_ROOT
-    git clone https://github.com/richnologies/redmine-msteams --single-branch --branch msteams plugins/redmine_msteams
+    git clone https://github.com/PSI-Mobile/redmine-msteams --single-branch --branch msteams plugins/redmine_msteams
     bundle install
     bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 

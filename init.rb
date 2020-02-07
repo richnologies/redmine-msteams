@@ -5,7 +5,7 @@ require_dependency 'redmine_msteams/listener'
 Redmine::Plugin.register :redmine_msteams do
 	name 'Redmine MS Teams'
 	author 'PSI Development Team'
-	url 'https://github.com/richnologies/redmine-msteams'
+	url 'https://github.com/PSI-Mobile/redmine-msteams'
 	author_url 'https://www.psi-mobile.com/'
 	description 'MSTeams chat integration'
 	version '0.3'
